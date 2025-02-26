@@ -1,0 +1,214 @@
+
+    /* ===== ESTILOS GLOBALES ===== */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+    h1, h2, h3, p {
+      margin: 0 0 10px 0;
+      text-align: center;
+    }
+    section {
+      position: relative;
+      padding: 40px 20px;
+    }
+    /* ===== SECCIÓN 1: HERO ===== */
+    .hero {
+      height: 100vh;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url('/Fotos/foto1.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .hero .content {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .alma {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:lighter;
+      }
+      .linea {
+        width: 100%;
+      }
+      .frase {
+        font-family: brush script MT;
+        font-size: 1.5em;
+      }
+    /* ===== SECCIÓN 2: CUENTA REGRESIVA ===== */
+    .countdown {
+      background-color: #d0f0fd; /* celeste clarito */
+    }
+    .countdown h2 {
+      margin-bottom: 20px;
+    }
+    .timer {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+    }
+    .time-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      min-width: 80px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .time-box span {
+      font-size: 2em;
+      display: block;
+    }
+    /* ===== SECCIÓN 3: DETALLES DEL EVENTO ===== */
+    .details {
+      color: #fff;
+      background: url('/Fotos/foto6.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 60vh;
+    }
+    .overlay-box {
+      position: absolute;
+      top: 100px;
+      left: 200px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 300px;
+    }
+    .overlay-box p, .overlay-box h2 {
+      text-align: left;
+    }
+   
+     /* ===== SECCIÓN 4: GALERÍA Y MÚSICA ===== */
+     .gallery {
+        background-color: #f5f5f5;
+      }
+      .gallery h2 {
+        margin-bottom: 20px;
+      }
+      .photo-carousel {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+        padding: 10px;
+      }
+      .photo-carousel img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .music-player {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+    .music-player {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    /* ===== SECCIÓN 5: COMPARTE LOS MOMENTOS ===== */
+    .share {
+      background-color: #d0f0fd; /* celeste clarito */
+    }
+    .share a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    /* ===== SECCIÓN 6: RESERVA ===== */
+    .reservation {
+      /* Gradiente: celeste (#d0f0fd) a blanco */
+      background: linear-gradient(to bottom, #d0f0fd, #fff);
+    }
+    .reservation h2 {
+      margin-bottom: 20px;
+    }
+    .prices {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .price-block {
+      background: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      min-width: 140px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    #reserveBtn {
+      padding: 10px 20px;
+      font-size: 1em;
+      background: #0077b6;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+    /* ===== MODAL DEL FORMULARIO ===== */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background: rgba(0,0,0,0.6);
+    }
+    .modal-content {
+      background: #fff;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 5px;
+      width: 90%;
+      max-width: 500px;
+      position: relative;
+    }
+    .modal-content h3 {
+      margin-top: 0;
+    }
+    .modal-content label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .modal-content input, 
+    .modal-content textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    .modal-content button[type="submit"] {
+      margin-top: 15px;
+      padding: 10px;
+      width: 100%;
+      background: #0077b6;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .close {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
