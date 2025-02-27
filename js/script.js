@@ -17,21 +17,6 @@
       document.getElementById("seconds").innerText = seconds;
     }
     setInterval(updateCountdown, 1000);
-
-/* ===== Reproduccion del Audio ===== */
-window.onload = setInterval(GameLoop, 1000 / 10); //10fps
-
-let myAudio = new Audio();
-
-myAudio.src = '../Musica/musica1.mp3';
-
-function Gameloop() {
-    myAudio.play();
-    if (myAudio.paused == true) {
-        myAudio.play();
-    }
-}
-
     
   
   /* ===== MODAL DEL FORMULARIO ===== */
