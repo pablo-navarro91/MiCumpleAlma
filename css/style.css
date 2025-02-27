@@ -22,7 +22,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      background: url('/Fotos/foto1.jpg') no-repeat center center fixed;
+      background: url('Fotos/foto1.jpg') no-repeat center center fixed;
       background-size: cover;
     }
     .hero .content {
