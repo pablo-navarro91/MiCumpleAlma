@@ -70,7 +70,7 @@
     /* ===== SECCIÓN 3: DETALLES DEL EVENTO ===== */
     .details {
       color: #fff;
-      background-image: url('./Fotos/foto6.jpg') no-repeat center center fixed;
+      background: url('../Fotos/foto6.jpg') no-repeat center center fixed;
       background-size: cover;
       min-height: 60vh;
     }
