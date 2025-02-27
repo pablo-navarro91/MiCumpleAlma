@@ -63,7 +63,7 @@
     mensaje += "Datos: " + datos;
 
     // Número de WhatsApp (formato internacional sin el símbolo '+')
-    const numeroWhatsApp = "5493534093935"; // Reemplaza con el número real
+    const numeroWhatsApp = "5493534084648"; // Reemplaza con el número real
 
     // Construye la URL para enviar el mensaje
     const urlWhatsApp = "https://api.whatsapp.com/send?phone=" + numeroWhatsApp + "&text=" + mensaje;
